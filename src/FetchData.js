@@ -22,8 +22,8 @@ const FetchData = () => {
             <div >
                 <div className='card'>
 
-                <div key={index}>{list.name}</div>
-                <Link to={`/${index}/${list.name}`}>View More</Link>
+                <div key={index+1}>{list.name}</div>
+                <Link to={`/${index+1}/${list.name}`}>View More</Link>
                 {/* <Link>View More</Link> */}
                 </div>
             </div>
