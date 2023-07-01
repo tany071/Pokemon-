@@ -24,10 +24,9 @@ const FetchData = () => {
 
                 <div key={index+1}>{list.name}</div>
                 <Link to={`/${index+1}/${list.name}`}>View More</Link>
-                {/* <Link>View More</Link> */}
                 </div>
             </div>
-            // onClick={`list.url+/${index}`}
+  
             ))}
     </div>
          
